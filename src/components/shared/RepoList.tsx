@@ -8,9 +8,11 @@ import {
 } from "../ui/card";
 import { GitFork, Star } from "lucide-react";
 
+// repo list props
 interface RepolistProps {
   repos: GitHubRepo[];
 }
+// repo list
 const RepoList = ({ repos }: RepolistProps) => {
   return (
     <div className="space-y-4">
