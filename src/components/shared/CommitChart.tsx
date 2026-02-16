@@ -9,6 +9,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
+// commit chart interface
 interface CommitChartProps {
   commits: CommitData[];
 }
@@ -18,6 +19,7 @@ const CommitChart = ({ commits }: CommitChartProps) => {
     return <p>No commit data available.</p>;
   }
 
+  // mapping the commit charts 
   return (
     <div className="space-y-4">
       <h2 className="text-xl font-bold">Daily Commits</h2>
